@@ -19,7 +19,13 @@ public class SchoolController {
     public void saveSchool(@RequestBody School school) {
         service.saveSchool(school);
     }
+    @GetMapping
     public ResponseEntity<List<School>> findAllSchools() {
         return ResponseEntity.ok(service.findAllSchools());
+    }
+
+    @GetMapping("with-students/{school-id}")
+    public ResponseEntity<FullSchoolResponse> findAllSchools(@PathVariable("school-id") Integer schoolId) {
+        return ResponseEntity.ok(service.findSchoolsWithStudents(schoolId));
     }
 }
