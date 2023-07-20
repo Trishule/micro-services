@@ -15,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="s" target="17" />
       <module name="school" target="17" />
       <module name="student" target="17" />
     </bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="config-server" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="s" options="-parameters" />
       <module name="school" options="-parameters" />
       <module name="school (1)" options="-parameters" />
       <module name="school (2)" options="-parameters" />
