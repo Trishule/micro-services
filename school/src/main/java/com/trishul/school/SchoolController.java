@@ -19,7 +19,7 @@ public class SchoolController {
     public void saveSchool(@RequestBody School school) {
         service.saveSchool(school);
     }
-
+    @GetMapping
     public ResponseEntity<List<School>> findAllSchools() {
         return ResponseEntity.ok(service.findAllSchools());
     }

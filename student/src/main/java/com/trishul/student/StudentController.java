@@ -20,6 +20,7 @@ public class StudentController {
         service.saveStudent(student);
     }
 
+    @GetMapping
     public ResponseEntity<List<Student>> findAllStudents() {
         return ResponseEntity.ok(service.findAllStudents());
     }
