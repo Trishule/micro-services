@@ -8,7 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class Student {
+
     private String firstname;
-    private String lastName;
+    private String lastname;
     private String email;
 }
