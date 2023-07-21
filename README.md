@@ -12,4 +12,4 @@ by Trishul Gurumurthy,
 [@Trishule](https://github.com/Trishule/)
 
 ## GitHub Repo
-https://github.com/Trishule/microservices/main
+https://github.com/Trishule/micro-services/main
